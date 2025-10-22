@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BIS Robotics 2026</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>BIS Robotics 2026</h1>
+    <p>Inspiring innovation and learning through robotics excellence.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#login">Login/Register</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to BIS Robotics</h2>
+    <p>
+      Birlik International School's Robotics program empowers students to explore cutting-edge technology, develop problem-solving skills, and compete globally. Our mission is to foster creativity, teamwork, and a passion for innovation.
+    </p>
+  </section>
+
+  <section id="categories">
+    <h2>Robotics Categories</h2>
+    <div class="grid">
+      <div class="card">Autonomous Robots</div>
+      <div class="card">Programming & AI</div>
+      <div class="card">Hardware</div>
+      <div class="card">Competitions</div>
+    </div>
+  </section>
+
+  <section id="login">
+    <h2>Login / Register</h2>
+    <div class="form-container">
+      <div class="tabs">
+        <button onclick="showForm('login')">Login</button>
+        <button onclick="showForm('register')">Register</button>
+      </div>
+
+      <form id="loginForm" class="form">
+        <input type="text" placeholder="Username" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+
+      <form id="registerForm" class="form hidden">
+        <input type="text" placeholder="Username" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Birlik International School Robotics</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
